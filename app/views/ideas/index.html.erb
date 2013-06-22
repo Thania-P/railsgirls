@@ -18,7 +18,7 @@
   <tr>
     <td><%= idea.name %></td>
     <td><%= idea.description %></td>
-    <td><%= image_tag(idea.picture_url, :width => idea.picture_width ) if idea.picture.present? %></td>
+    <td><%= image_tag(idea.picture_url, :width => idea.picture_width, :height => idea.picture_height) if idea.picture.present? %></td>
     <td><%= idea.rating %></td>
     <td><%= idea.comments %></td>
     <td><%= idea.created_at %></td>
