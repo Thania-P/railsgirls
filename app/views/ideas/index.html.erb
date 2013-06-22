@@ -8,6 +8,7 @@
     <th>Rating</th>
     <th>Comments</th>
     <th>Created</th>
+    <th>Updated</th>
     <th/>
     <th/>
     <th/>
@@ -21,6 +22,7 @@
     <td><%= idea.rating %></td>
     <td><%= idea.comments %></td>
     <td><%= idea.created_at %></td>
+    <td><%= idea.updated_at %></td>
     <td><%= link_to 'Show', idea %></td>
     <td><%= link_to 'Edit', edit_idea_path(idea) %></td>
     <td><%= link_to 'Destroy', idea, method: :delete, data: { confirm: 'Are you sure?' } %></td>
