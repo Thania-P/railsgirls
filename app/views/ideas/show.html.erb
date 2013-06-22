@@ -13,6 +13,8 @@
 <p>
  <b>Picture:</b>
   <%= image_tag(@idea.picture_url, :height => @idea.picture_height, :width => @idea.picture_width ) if @idea.picture.present? %>
+</p>
+
 <p>
   <b>Rating:</b>
   <%= @idea.rating %>
@@ -23,6 +25,9 @@
   <%= @idea.comments %>
 </p>
 
+<p>
+  <b>Created:</b>
+  <%= @idea.created_at %>
 </p>
 
 
