@@ -1,6 +1,9 @@
 Railsgirls::Application.routes.draw do
-  root :to => redirect('/ideas')
+  
+  resources :profiles
   resources :ideas
+
+  root :to => redirect('/profiles')
 
 
 

@@ -19,3 +19,7 @@ body {
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle !important; border: none !important; }
 th { border-bottom: 1px solid #DDD !important; }
+
+table {
+	width: 100%;
+}
